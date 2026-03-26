@@ -1,24 +1,21 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import BlogPost from '../components/BlogPost.astro';
-
 const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
+const pageTitle = "My Astro Learning Blog"
 
 // Sort posts by publication date (oldest first) so new posts appear at the bottom.
-const sortedPosts = allPosts.sort((a: any, b: any) => {
-	const dateA = new Date(a.frontmatter.pubDate);
-	const dateB = new Date(b.frontmatter.pubDate);
-	return dateA.getTime() - dateB.getTime();
-});
+//const sortedPosts = allPosts.sort((a: any, b: any) => {
+//	const dateA = new Date(a.frontmatter.pubDate);
+//	const dateB = new Date(b.frontmatter.pubDate);
+//	return dateA.getTime() - dateB.getTime();
+//});
 
-const pageTitle = "Blog"
 ---
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout pageTitle = {pageTitle}>
 	<p>This is where I will post about my journey learing Astro.</p>
 	<ul>
-		{sortedPosts.map((post: any) => (
-			<BlogPost url={post.url} title={post.frontmatter.title} />
-		))}
+
+		{allPosts.map((post: any) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
 	</ul>
 </BaseLayout>
 
