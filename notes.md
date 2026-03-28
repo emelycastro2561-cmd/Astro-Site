@@ -42,3 +42,14 @@ I will:
 - Acess data from my posts at ounce using import.meta.glob()
 - Display a dynamically generated list of posts on my Blog page
 - Refactor to use a <BlogPost /> component for each list item 
+
+
+Generating tap pages Notes
+
+objective: I will 
+- create a page to generate multiple pages
+- specify which page routes to build, and pass each page its own props 
+
+What is frontmatter?
+
+Front matter is a small block of information you put at the very top of a file. it gives extra details about the file, instead of being the main content itself.
