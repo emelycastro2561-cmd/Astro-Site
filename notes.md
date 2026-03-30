@@ -53,3 +53,6 @@ objective: I will
 What is frontmatter?
 
 Front matter is a small block of information you put at the very top of a file. it gives extra details about the file, instead of being the main content itself.
+
+
+Today im making a project for godot but im making some struggles on the assets folders, they dont pop up when i go to my downloads, i dont know what mistake i've done, so i guess its gonna take long. visual studio is fun for people who know how too code like omg there dsdsdsths imagine people inside a lot of diffrent thingd like omgd ethry like so. kinds to yoiu tiu dont understand that so period omg like be som 
