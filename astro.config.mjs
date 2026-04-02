@@ -1,7 +1,10 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
+import preact from "@astrojs/preact";
+
 // https://astro.build/config
 export default defineConfig({
-    site: "https://69ccb3dc5a59f80007f5f3f7--emy-cmd-astro-site.netlify.app/"
+  site: "https://emy-cmd-astro-site.netlify.app/",
+  integrations: [preact()]
 });
