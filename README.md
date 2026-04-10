@@ -1,43 +1,138 @@
-# Astro Starter Kit: Minimal
+# Astro Learning Blog
 
-```sh
-npm create astro@latest -- --template minimal
+A personal blog documenting my journey learning Astro, built with the Astro framework.
+
+## 🚀 Features
+
+- **Static Site Generation**: Fast, SEO-friendly blog built with Astro
+- **Markdown Support**: Write blog posts in Markdown with frontmatter
+- **Component Library**: Reusable components built with Preact
+- **RSS Feed**: Automatic RSS feed generation for blog posts
+- **Tag System**: Organize posts by tags
+- **Responsive Design**: Mobile-friendly layout
+
+## 🛠️ Tech Stack
+
+- **Framework**: Astro
+- **UI Components**: Preact
+- **Styling**: CSS
+- **Content**: Markdown
+- **Deployment**: Netlify
+
+## 📁 Project Structure
+
 ```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
 /
 ├── public/
+│   └── favicon.svg
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── components/
+│   │   ├── BlogPost.astro
+│   │   ├── Footer.astro
+│   │   ├── Greeting.jsx
+│   │   ├── Header.astro
+│   │   ├── Menu.astro
+│   │   ├── Navigation.astro
+│   │   ├── Social.astro
+│   │   └── ThemeIcon.astro
+│   ├── layouts/
+│   │   ├── BaseLayout.astro
+│   │   └── MarkdownPostLayout.astro
+│   ├── pages/
+│   │   ├── about.astro
+│   │   ├── blog.astro
+│   │   ├── index.astro
+│   │   ├── rss.xml.js
+│   │   ├── posts/
+│   │   │   ├── post-4.md
+│   │   │   ├── posts-1.md
+│   │   │   ├── posts-2.md
+│   │   │   └── posts-3.md
+│   │   └── tags/
+│   │       ├── [tag].astro
+│   │       └── index.astro
+│   └── styles/
+│       └── global.css
+├── astro.config.mjs
+├── package.json
+├── tsconfig.json
+└── README.md
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 🚀 Getting Started
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### Prerequisites
 
-Any static assets, like images, can be placed in the `public/` directory.
+- Node.js (version 18 or higher)
+- npm or yarn
 
-## 🧞 Commands
+### Installation
 
-All commands are run from the root of the project, from a terminal:
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd astro-project-1
+```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+2. Install dependencies:
+```bash
+npm install
+```
 
-## 👀 Want to learn more?
+3. Start the development server:
+```bash
+npm run dev
+```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+4. Open [http://localhost:4321](http://localhost:4321) in your browser.
+
+## 📝 Usage
+
+### Creating Blog Posts
+
+1. Create a new Markdown file in `src/pages/posts/`
+2. Add frontmatter with title, date, description, author, image, and tags
+3. Write your post content in Markdown
+4. The post will automatically appear on the blog page
+
+### Adding Components
+
+- Place reusable components in `src/components/`
+- Use `.astro` for Astro components or `.jsx` for Preact components
+- Import and use them in your pages and layouts
+
+## 🏗️ Build & Deployment
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+### Deploy
+
+This project is configured for deployment on Netlify. The production site is available at: [https://emy-cmd-astro-site.netlify.app/](https://emy-cmd-astro-site.netlify.app/)
+
+
+## 🤝 Contributing
+
+This is a personal learning project, but feel free to:
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+*Built with ❤️ using Astro*

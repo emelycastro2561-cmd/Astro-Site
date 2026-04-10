@@ -1,6 +1,6 @@
 html.dark {
-  background-color: #0d0950;
-  color: #fff;
+  background-color: #0e1041;
+  color: #edd6d6;
 }
 
 .dark .menu {
@@ -10,7 +10,7 @@ html.dark {
 
 .dark .nav-links a:hover,
 .dark .nav-links a:focus {
-  color: #0d0950;
+  color: #847ff3;
 }
 
 .dark .nav-links a {
@@ -41,7 +41,7 @@ h1 {
 
 /* nav styles */
 .menu {
-  background-color: #0d0950;
+  background-color: #19156b;
   border: none;
   color: #fff;
   font-size: 1.2rem;
