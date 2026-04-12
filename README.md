@@ -1,23 +1,15 @@
 # Astro Learning Blog
 
-A personal blog documenting my journey learning Astro, built with the Astro framework.
 
-## 🚀 Features
+1. My project is about my personal journey learning how to code in Astro step by step, following a guided tutorial. My project is a website I have been working on for the past couple of weeks, where I tried to understand what each line of code is doing under the hood. My project creates web pages, links them with a navigation bar, is stylized, and interactive to users. It even has a light and dark mode.
 
-- **Static Site Generation**: Fast, SEO-friendly blog built with Astro
-- **Markdown Support**: Write blog posts in Markdown with frontmatter
-- **Component Library**: Reusable components built with Preact
-- **RSS Feed**: Automatic RSS feed generation for blog posts
-- **Tag System**: Organize posts by tags
-- **Responsive Design**: Mobile-friendly layout
 
-## 🛠️ Tech Stack
+2. I made my project to turn ideas into real creations. I wanted to learn how to build a more fleshed out website compared to my first ever website. I found that working through this project at my own pace let me better digest all this new info. 
 
-- **Framework**: Astro
-- **UI Components**: Preact
-- **Styling**: CSS
-- **Content**: Markdown
-- **Deployment**: Netlify
+3. I made my project by following instructions from this tutorial, https://docs.astro.build/en/tutorial/0-introduction/, these instructions allowed me to learn new words, new skills, new concepts, and much more. 
+
+4. I struggled with some of the words used in the tutorial. Sometimes things weren't clearly defined, almost like it should be assumed knowledge. I am completely new to coding, so when I found myself struggling to visualize what's going on, I would watch additional youtube videos, read more on the topic, and try to write my own personal notes. I am still grasping how coding works, but from this tutorial I got familiar with using tools like github to save my progress, VS code to write code, and netlify to deploy websites onto the web. By following this tutorial I have more questions and a curiosity to understand what is happening. 
+
 
 ## 📁 Project Structure
 
@@ -59,80 +51,7 @@ A personal blog documenting my journey learning Astro, built with the Astro fram
 └── README.md
 ```
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (version 18 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd astro-project-1
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-4. Open [http://localhost:4321](http://localhost:4321) in your browser.
-
-## 📝 Usage
-
-### Creating Blog Posts
-
-1. Create a new Markdown file in `src/pages/posts/`
-2. Add frontmatter with title, date, description, author, image, and tags
-3. Write your post content in Markdown
-4. The post will automatically appear on the blog page
-
-### Adding Components
-
-- Place reusable components in `src/components/`
-- Use `.astro` for Astro components or `.jsx` for Preact components
-- Import and use them in your pages and layouts
-
-## 🏗️ Build & Deployment
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
 ### Deploy
 
 This project is configured for deployment on Netlify. The production site is available at: [https://emy-cmd-astro-site.netlify.app/](https://emy-cmd-astro-site.netlify.app/)
 
-
-## 🤝 Contributing
-
-This is a personal learning project, but feel free to:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-*Built with ❤️ using Astro*
